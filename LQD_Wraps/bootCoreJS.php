@@ -17,7 +17,9 @@
       <!-- Javascript for LightBox -->
       <script src="js/lightbox.js"></script>
       <!-- Javascript for shopping -->
-      <script src="js/shopping.js"></script>
+      <script src="js/lqdwraps.js"></script>
+
+      <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script>
 
    </body>
 </html>

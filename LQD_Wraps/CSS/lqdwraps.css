@@ -52,6 +52,11 @@ footer{
    bottom: 0;
 }
 
+/*CSS for Form Validation-----------*/
+.my-error-class {
+    color:#FF0000;  /* red */
+}
+
 /* Shopping CSS
 -------------------------------------------------- */
 .shop-container {
