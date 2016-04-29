@@ -1,0 +1,48 @@
+Nathan Spangler
+1520 Project
+
+What has changed from Part 1:
+1. Added content to the 3 shopping pages to give an idea of what the page would look like for a customer.
+	- Each image has some nice CSS on it that utilizes a psuedo class ".shop-column:hover", which shows the user what they are 
+	  hovering over.
+	- jQuerey is also used, I used the LightBox library. It allows you to click on the image and then	the image enlarges. 
+	  You can then scroll through all the images if you chose to.
+
+2. Added Form Validation to the request a quote form
+	-Uses jQuery in the lqdwraps.js file that I wrote to check certain fields that I felt were required	before 
+	 allowing the form to be submitted. If something is left blank the user is notified with red text.
+
+3. Images were organized in more detail in the folders because there are so many now.
+
+4. The Pricing, Warranty, and Wrap Care pages were adjusted with CSS just to make them look nicer and 
+   fix some spacing that was bothering me on the pages.
+   
+5. The data entered into the form is now sanitized to prevent SQL Injection.
+  - How I went about this was by actually not using MySQL. I instead used PDO to send the data to the database.
+  - This can be found in the 'sendQuote.php'.
+
+If there was a third part what would I change:
+1. I'd like to add a way for a customer to add an image to the form in case they wanted to show us what color they wanted.
+  -I didn't do this because it just wasnt required by the project and I was running out of time.
+  
+2. The site needs to have Ecommerce added to it and a way to create a shopping cart for customers to buy the products from the shop pages.
+  - Would need to figure out what all needs to be done for that to be achieved. I'm hoping there are Ecommerce plugins I could download.
+  
+3. I would also add descriptions for the products that are shown under shop. Come up with neat way to show it as well.
+
+4. I might want to edit the code with some guidelines. Like maybe a character limit per line.
+
+What have I learned:
+  I learned a great deal from this project. When I started I had zero experience with web development. Now I feel that I have
+  a decent understanding. The site looks nice and does what it needs to do. I was starting to get really good with CSS towards the end,
+  versuses the beginning I was pretty clueless how to use CSS. I have a firm grasp on how everything should be laid out.
+  I'm pretty comfortable with jQuery. I am not a fan of SQL, I really liked reading and learning about PHP Data Object (POD), 
+  which I used to sanitize and write to my database. Also learned a little about databases. I will be taking a databases class next semester.
+  
+What did I like about the project and how could it be better:
+  I really liked how we could pretty much do whatever we wanted. It gave me an opportunity to work on my companies website. 
+  This in turn also motivated me to do a great job on the website. I thought the project was a great way to learn for beginners like myself.
+  The best way to learn is to do and this certainly made me do that. 
+  As for what I would change, I would maybe make a couple more neceassry requirements, like having to Read AND write from a database.
+  Or maybe use a psuedo:class somewhere as a requirment. Other than that I thought the project was nice and laid back, but I
+  was still learning a lot which is good.
