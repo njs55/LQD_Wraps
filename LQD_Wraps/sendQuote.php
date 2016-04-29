@@ -10,33 +10,19 @@
                               email, phoneNumber, carMake, carModel, carYear,
                               color, finish, doorJams, fullCarOrWheels, comments)
         VALUES(NULL, :firstName, :lastName, :email, :phoneNumber, :carMake, :carModel,
-              :carYear, :color, :finish, :doorJams, :fullCarOrWheels, :comments)');
-
+              :carYear, :color, :finish, :doorJams, :fullCarOrWheels, :comments)')
       $stmt->execute(array(':firstName' => $_POST['inputFirstName'],
-       ':lastName' => $_POST['inputLastName'],
-       ':email' => $_POST['inputEmail'],
-       ':phoneNumber' => $_POST['inputPhone'],
-       ':carMake' => $_POST['inputMake'],
-       ':carModel' => $_POST['inputModel'],
-       ':carYear' => $_POST['inputYear'],
-       ':color' => $_POST['inputColor'],
-       ':finish' => $_POST['inputFinish'],
-       ':doorJams' => $_POST['inputJams'],
-       ':fullCarOrWheels' => $_POST['inputCarWheels'],
-       ':comments' => $_POST['inputComment']));
-
-      /*$firstName = $_POST['inputFirstName'];
-      $lastName = $_POST['inputLastName'];
-      $email = $_POST['inputEmail'];
-      $phone = $_POST['inputPhone'];
-      $make = $_POST['inputMake'];
-      $model = $_POST['inputModel'];
-      $year = $_POST['inputYear'];
-      $color = $_POST['inputColor'];
-      $finish = $_POST['inputFinish'];
-      $jams = $_POST['inputJams'];
-      $carWheels = $_POST['inputCarWheels'];
-      $comments = $_POST['inputComment'];*/
+        ':lastName' => $_POST['inputLastName'],
+        ':email' => $_POST['inputEmail'],
+        ':phoneNumber' => $_POST['inputPhone'],
+        ':carMake' => $_POST['inputMake'],
+        ':carModel' => $_POST['inputModel'],
+        ':carYear' => $_POST['inputYear'],
+        ':color' => $_POST['inputColor'],
+        ':finish' => $_POST['inputFinish'],
+        ':doorJams' => $_POST['inputJams'],
+        ':fullCarOrWheels' => $_POST['inputCarWheels'],
+        ':comments' => $_POST['inputComment']))
 
       header('Location: formSubmitted.php');
       exit;
