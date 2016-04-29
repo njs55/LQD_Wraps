@@ -14,5 +14,10 @@
       <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
       <script src="js/ie10-viewport-bug-workaround.js"></script>
 
+      <!-- Javascript for LightBox -->
+      <script src="js/lightbox.js"></script>
+      <!-- Javascript for shopping -->
+      <script src="js/shopping.js"></script>
+
    </body>
 </html>

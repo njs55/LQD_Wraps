@@ -21,8 +21,8 @@
                   <li class="dropdown">
                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="caret"></span></a>
                      <ul class="dropdown-menu">
-                        <li><a href="plastiDip.php">PlastiDip Gallons</a></li>
-                        <li><a href="halo.php">Halo EFX</a></li>
+                        <li><a href="plastiDip.php">Plasti Dip Colors</a></li>
+                        <li><a href="dipPearls.php">Dip Pearls</a></li>
                         <li><a href="accessories.php">Accessories</a></li>
                         <li role="separator" class="divider"></li>
                         <li class="dropdown-header">Partners</li>
