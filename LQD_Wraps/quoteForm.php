@@ -1,7 +1,7 @@
 <div  class="form-wrapper">
    <h1 class="center">Get a quote today!</h1>
    <br />
-   <form action = "sendQuote.php" method = "POST">
+   <form id="myForm" action = "sendQuote.php" method = "POST">
 
       <!--User enters First and Last name in an inline format-->
       <div class="form-inline">
