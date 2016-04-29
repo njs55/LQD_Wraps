@@ -6,11 +6,13 @@
    try {
       //connect to DB
       $conn = new PDO('mysql:host=localhost;dbname=lqdwrapsdb', $dbuser, $dbpass);
+
       $stmt = $conn->prepare('INSERT INTO quotedb (userID, firstName, lastName,
                               email, phoneNumber, carMake, carModel, carYear,
                               color, finish, doorJams, fullCarOrWheels, comments)
-        VALUES(NULL, :firstName, :lastName, :email, :phoneNumber, :carMake, :carModel,
-              :carYear, :color, :finish, :doorJams, :fullCarOrWheels, :comments)')
+        VALUES(NULL, :firstName, :lastName, :email, :phoneNumber, :carMake,
+              :carModel, :carYear, :color, :finish, :doorJams, :fullCarOrWheels, :comments)');
+
       $stmt->execute(array(':firstName' => $_POST['inputFirstName'],
         ':lastName' => $_POST['inputLastName'],
         ':email' => $_POST['inputEmail'],
@@ -22,7 +24,7 @@
         ':finish' => $_POST['inputFinish'],
         ':doorJams' => $_POST['inputJams'],
         ':fullCarOrWheels' => $_POST['inputCarWheels'],
-        ':comments' => $_POST['inputComment']))
+        ':comments' => $_POST['inputComment']));
 
       header('Location: formSubmitted.php');
       exit;

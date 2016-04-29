@@ -74,7 +74,7 @@
          <input type="radio" name="inputJams" id="inlineRadio1" value="1"> Yes
       </label>
       <label class="radio-inline">
-         <input type="radio" name="inputJams" id="inlineRadio2" value="0"> No
+         <input type="radio" name="inputJams" id="inlineRadio2" value="0" checked="checked"> No
       </label>
       <br /><br />
 

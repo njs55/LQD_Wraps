@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-   
-   <?php include 'head.php';?>  
 
-   <body>   
+   <?php include 'head.php';?>
+
+   <body>
       <!-- NAVBAR========================== -->
       <?php include 'navBar.php';?>
-      <?php include 'connectionDB.php';?>
-      
+
       <!--Add insert quote form with some extra padding-->
       <div class="upper-padding">
-         <?php include 'quoteForm.php';?>   
+         <?php include 'quoteForm.php';?>
       </div>
 
       <!-- FOOTER -->
@@ -23,6 +22,6 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <?php include 'bootCoreJS.php';?>
-    
+
   </body>
 </html>
